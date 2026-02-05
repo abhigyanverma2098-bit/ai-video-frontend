@@ -4,7 +4,7 @@ export default function Home() {
   const [trends, setTrends] = useState([]);
 
   useEffect(() => {
-    fetch("https://YOUR-BACKEND-URL.onrender.com/trends")
+    fetch("https://ai-video-backend-w6ho.onrender.com")
       .then(res => res.json())
       .then(data => setTrends(data.trends));
   }, []);
