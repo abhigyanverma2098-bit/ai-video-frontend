@@ -1,4 +1,4 @@
-"use client"; // Required in Next.js 13+ if using client-side code
+ // Required in Next.js 13+ if using client-side code
 
 import { useState, useEffect } from "react";
 
